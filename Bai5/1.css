@@ -1,0 +1,29 @@
+*{margin: 0px;padding: 0px;}
+.dangky, .dangnhap {
+    width: 500px;
+    height: 500px;
+    background: #f7f7f7;
+    padding: 20px;
+    border: 1px solid gray;
+    position: fixed;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+ button.nutso2 {
+    float: right;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 27px;
+}
+button.nutso1 {
+    float: right;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin: 21px;
+    /* top: 10px; */
+    /* left: 10px; */
+}
+
+img {padding: 21px;}

@@ -1,0 +1,85 @@
+*{margin:0;padding:0;}
+.nutlentren {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background: #487eb0;
+    color: white;
+    padding: 9px  35px;
+    margin: 13px;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+
+.chapter1 ,.chapter2 ,.chapter3, .chapter4 {
+    background: url(images/Chapter-1.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+
+.chapter2 {
+    background: url(images/Chapter-2.jpg);
+}
+
+.chapter3 {
+    background: url(images/Chapter-3.jpg);
+}
+
+.chapter4 {
+    background: url(images/Chapter-4.jpg);
+}
+
+h2.chuto {
+    color: white;
+    font-family: tahoma;
+    font-size: 290px;
+    margin-left: 5%;
+    padding-top: 1px;
+}
+
+.noidung1, .noidung2,.noidung3,.noidung4 {
+    height: 800px;
+    padding: 50px 0;
+    text-align: center;
+    color: #353b48;
+}
+
+.home {
+    width: 100%;
+    height: 800px;
+    background: url(images/1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+nav.menutren {
+    width: 100%;
+    height: 57px;
+    position: fixed;
+    margin: auto;
+    top: 0px;
+    background: whitesmoke;
+   
+}
+
+.menutren ul {
+    margin-left: 17%;
+}
+
+.menutren a {
+    text-decoration: none;
+    display: block;
+    padding: 19px 30px;
+    color: black;
+    font-family: 'Rowdies', cursive;
+    font-weight: bold;
+    font-size: 23px;
+    margin-right: 27px;
+}
+
+.menutren ul li {
+    float: left;
+    list-style: none;
+}
+
