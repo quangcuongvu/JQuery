@@ -1,0 +1,19 @@
+kiến thức áp dụng:
+1. Hàm xử lý click
+    - xử lý việc click chuột vào phần tử nào đó.
+2. Hàm addClass, removeClass, toggleClass
+    - Xử lý việc thay đổi giao diện của phần tử nào đó
+    - Giao diện -> css -> class -> nếu thay đổi được class tức là = với việc thay đổi giao diện
+3. Hàm animate - ScrollTop
+    cho body di chuyển 1 đoạn theo yêu cầu
+4. Hàm slideUp, slideDown
+    - di chuyển nội dung (thay đổi việc hiển thị nội dung)
+5. sử dụng thư viện gia tốc (easing jquery)
+    - cho đẹp website
+------------------------------
+Csc bước thực hiện
+1. viết mã html
+    Tạo file html. tạo file css, chuẩn bị ảnh, tạo file js, link thư viện jquery
+2. xử lý css
+3. xử lý việc click chuột thay đổi giao diện = hàm addClass
+4. Xử lý accordion, cuộn chuột
