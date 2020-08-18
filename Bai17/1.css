@@ -1,13 +1,4 @@
 *{margin:0;padding: 0;}
-h1.tieude {
-    font-family: 'Josefin Slab', serif;
-    /* font-weight: 500; */
-    text-align: center;
-    margin: 17px 0px;
-    font-size: 49px;
-}
-
-
 body {
     background: url(img/nen.jpg);
 }
@@ -20,57 +11,69 @@ body {
 
 img.anhnho {
     float: left;
-    height: 200px;
-    margin-right: 10px;
-    width: 32%;
+    height: 250px;
+    width: 33%;
+    margin-right: 3px;
 }
 
 .vaicaianh {
     overflow: hidden;
 }
 
-
-._1motkhoi {
-    border-bottom: 1px solid #95a5a6;
-    padding-bottom: 6px;
+h1.tieude {
+    margin-bottom: 13px;
+    font-size: 57px;
+    color: #10ac84;
+    font-weight: 900;
 }
 
-.tdkhoi {
-    height: 49px;
-    font-size: 46px;
-    color: #5352ed;
-    font-weight: 300;
+._1motkhoi {
+    border-bottom: 1px solid green;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+h2.tdkhoi {
+    height: 58px;
+    font-size: 51px;
+    color: #e84118;
+    font-weight: 500px;
     cursor: pointer;
     overflow: hidden;
     transition: 0.4s;
-    padding-top: 2px;
-    padding-bottom: 10px;
 }
 
-.tdkhoi  img {
+.tdkhoi img {
     float: right;
     transition: 0.4s;
-    /* transform: rotate(180deg); */
-    padding-top: 27px;
-    /* cursor: pointer; */
-    margin-right: -100px;
+    padding-top: 34px;
+    height: 15px;
+    margin-right: -26px;
 }
 
-
-.tdkhoi:hover img {
-    margin-right: 0px;
+h2.tdkhoi:hover img {
+    margin-right: 18px;
 }
 
-.tdkhoi:hover {
-    color:#ff3f34;
+h2.tdkhoi:hover {
+    color: #5f27cd;
 }
-
 
 .ndkhoi {
-    color: #1e272e;
-    font-size: 15px;
-    line-height: 25px;
-    padding: 1px;
-    margin-top: 1px;
-    margin-bottom: 5px;
+    color: black;
+    font-size: 20px;
+    line-height: 34px;
+    margin-top: 18px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+.tdkhoi.xanh{color:#5f27cd}
+
+h2.tdkhoi.xanh img {
+    margin-right: 18px;
+    transform: rotate(180deg);
+    margin-top: 20px;
+    pading-top: -8px;
 }
