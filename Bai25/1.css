@@ -1,0 +1,15 @@
+*{
+    margin:0;
+    padding:0;
+}
+img.anhdemo {
+    width: 400px;
+}
+
+.noidung {
+    background: lightblue;
+    padding: 47px 60px;
+    width: 53%;
+    margin: auto;
+    margin-top: 50px;
+}

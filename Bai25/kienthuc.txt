@@ -1,0 +1,27 @@
+Hiệu ứng sử dụng animation, transition và các thuộc tính css3
+
+1.Tại sao phải học thêm về animation, transition và css3 
+- Trong cách viết jquery hiện đại thì hiệu ứng là sự kết hợp của jquery và css3 
+             "effect jquery css3"
+1. học các thuộc tính
+    - thuộc tính quay: 
+        Transform:rotate(360deg);
+        Transform:rotateX(180deg) 
+           + Trục ngang
+           + Để mà chuyển động quay đẹp hơn và 3D hơn thì phải sử dụng thêm thuôc tính perspective:800px -> để vào thẻ bố của transform
+           + Giá trị tâm quay : tâm quay transform-origin
+    -thuộc tính zoom: Transform:scale(1): không zoom
+                      Transform:scale(2): zoom lên 2 lần=200% 
+                      Transform:scale(0.5): Zoom nhỏ 1 nửa
+    -thuộc tính dịch chuyển: Transform:translateX(100px)
+        gần giống với margin, khác ở điểm khi chuyển động thì không làm ảnh hưởng đến phần tử xung quanh
+    - Nếu muốn viết 2 thuộc tính cùng tên là transform--> Phải viết cùng dòng, cách nhau bằng dấu cách
+
+2. Kiến thức về transition và áp dụng
+    - Cách viết: Transition:0.4s;
+        Sử dụng để ta có thể nhìn rõ sự thay đổi thuộc tính của 1 phần tử
+    - cách áp dụng: sử dụng cho thuôc tính hover
+    - thuộc tính delay
+    - thuộc tính gia tốc
+3. Kiến thức về animation
+    - Cách viết và thuộc tính delay

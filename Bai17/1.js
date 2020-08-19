@@ -6,8 +6,8 @@ $(document).ready(function () {
         $(this).toggleClass('xanh');
 
         // khi click vao, cho noi dung hien ra
-        $(this).next().slideToggle(500);
-        $('html, body').animate({scrollTop: $(this).offset().top});
+        $(this).next().slideToggle(900,"easeInOutExpo");
+        $('html, body').animate({scrollTop: $(this).offset().top},900,"easeInOutExpo");
     });
     //code cho phan phong to anh
     $(".vaicaianh a").fancybox({
